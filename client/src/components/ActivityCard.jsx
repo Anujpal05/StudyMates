@@ -11,7 +11,11 @@ const ActivityCard = ({ activity }) => {
   const lastDateFormat = lastDate.toLocaleDateString();
 
   return (
+<<<<<<< HEAD
     <div className="bg-blue activitybox rounded-lg overflow-hidden shadow-lg ">
+=======
+    <div className="bg-gray-300 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300 ease-in-out">
+>>>>>>> 09b28685c4075f2443230ca8159ee59f42c7be53
       <div className="p-6">
         <h1 className="text-3xl font-semibold heading text-gray-800 mb-4">
           {activity.title}
@@ -27,11 +31,6 @@ const ActivityCard = ({ activity }) => {
           </p>
           <p className="text-sm">
             Organizer Name: {activity.organizationEmail}
-          </p>
-        </div>
-        <div className="mb-4 text-gray-600">
-          <p className="text-sm">
-            Required Memberes: {activity.requiredMembers}
           </p>
         </div>
         <div className="flex justify-between text-gray-600 mb-4">
