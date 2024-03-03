@@ -1,4 +1,3 @@
-// Activity.js
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import ActivityCard from "../components/ActivityCard";
@@ -21,7 +20,7 @@ const Activity = () => {
     fetchAllActivity();
   }, []);
 
-console.log(allActivity);
+  console.log(allActivity);
 
   return (
     <div className="container mx-auto px-4 mt-7">
